@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" ><br>
+            <label for="lname">Last Name:</label>
+            <input type="text"><br>
+            <label for="fname">Date of Birth:</label>
+            <input type="date" name="dob" required><br>
+            <label for="fname">Country:</label>
+            <select name="country" required>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Italy">Italy</option>
+            </select><br>
+            <label for="fname">Gender:</label>
+            <label for="male" >Male</label>
+            <input type="radio" name = "gender">
+            <label for="female">Female</label>
+            <input type="radio" name = "gender"><br>
+            <label for="fname">Proffession:</label>
+            <input type="text" name="Proffession" required><br>
+            <label for="fname">Email:</label>
+            <input type="email" name="email" required><br>
+            <label for="fname">Mobile Number:</label>
+            <input type="tel" name="mobile" required><br>
+            <div class="btns">
+            <input type="Reset" class="reset">
+            <input type="Submit" value="submit" class="submit">
+            </div>
+        </div>
+    </form>
+
+    
+</body>
+</html>
